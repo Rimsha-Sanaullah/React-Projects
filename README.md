@@ -1,2 +1,7 @@
 # React-Projects
-This repo include all beginner projects built with React.
+This repo includes all beginner projects built with React.
+
+### 01 Birthday Remainder
+- Frontend user-interfaces
+- Temporary Storage
+- React useState and useEffect
