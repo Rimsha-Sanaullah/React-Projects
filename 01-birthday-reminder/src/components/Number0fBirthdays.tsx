@@ -31,10 +31,10 @@ const NumberOfBirthdays: React.FC = () => {
   return (
     <div className="container">
       <div className="left-container">
-        <p className="left">Total {people.length} birthdays</p>
-        <p className="left">{todayBirthdays.length > 0 ? todayBirthdays.length : '0'} birthdays today</p>
+        <p className="top">Total {people.length} birthdays</p>
+        <p className="bottom">{todayBirthdays.length > 0 ? todayBirthdays.length : '0'} birthdays today</p>
       </div>
-      <div className="right">
+      <div className="right-container">
         <List people={todayBirthdays} />
       </div>
     </div>

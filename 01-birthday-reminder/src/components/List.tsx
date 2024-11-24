@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 
 type Birthday = {
   id: number;
@@ -9,9 +10,9 @@ type Birthday = {
 
 const List = ({ people }: { people: Birthday[] }) => {
   return (
-    <ul>
+    <ul className='list'>
       {people.map((person) => (
-        <li key={person.id}>
+        <li className='list-item' key={person.id}>
           {person.name} ({person.yearOfBirth})
         </li>
       ))}

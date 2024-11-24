@@ -1823,7 +1823,7 @@ const Data =[
         "id": 261,
         "name": "Daniel Wilson",
         "yearOfBirth": 2003,
-        "dateOfBirth": "2003-07-31",
+        "dateOfBirth": "2003-11-24",
         "image": "https://picsum.photos/id/261/200/300"
     },
     {
@@ -1865,7 +1865,7 @@ const Data =[
         "id": 267,
         "name": "John Brown",
         "yearOfBirth": 1989,
-        "dateOfBirth": "1989-11-25",
+        "dateOfBirth": "1989-11-24",
         "image": "https://picsum.photos/id/267/200/300"
     },
     {
@@ -1914,7 +1914,7 @@ const Data =[
         "id": 274,
         "name": "John Harris",
         "yearOfBirth": 1997,
-        "dateOfBirth": "1997-08-23",
+        "dateOfBirth": "1997-11-24",
         "image": "https://picsum.photos/id/274/200/300"
     },
     {
@@ -2040,7 +2040,7 @@ const Data =[
         "id": 292,
         "name": "Michael Moore",
         "yearOfBirth": 1998,
-        "dateOfBirth": "1998-08-24",
+        "dateOfBirth": "1998-11-24",
         "image": "https://picsum.photos/id/292/200/300"
     },
     {
@@ -2061,7 +2061,7 @@ const Data =[
         "id": 295,
         "name": "Jane Smith",
         "yearOfBirth": 1995,
-        "dateOfBirth": "1995-06-27",
+        "dateOfBirth": "1995-11-24",
         "image": "https://picsum.photos/id/295/200/300"
     },
     {
@@ -2089,7 +2089,7 @@ const Data =[
         "id": 299,
         "name": "Emily Smith",
         "yearOfBirth": 1991,
-        "dateOfBirth": "1991-05-15",
+        "dateOfBirth": "1991-11-24",
         "image": "https://picsum.photos/id/299/200/300"
     },
     {
