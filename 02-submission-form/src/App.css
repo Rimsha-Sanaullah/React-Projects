@@ -39,7 +39,72 @@ body{
   justify-content: center;
 }
 
-label{
+label{/* Set the background of the body to black and center content */
+  body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    color: white; /* Text color white for contrast on black background */
+  }
+  
+  /* The container with white background, centering children */
+  .container {
+    height: 65vh;
+    width: 50vw; /* Fixed typo from 'weight' to 'width' */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-radius: 8px; /* Optional: Softens the container's edges */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for contrast */
+  }
+  
+  /* Flexbox layout for the form */
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adds spacing between form elements */
+  }
+  
+  /* Button styles with a black border, aquamarine background, and white text */
+  .button {
+    height: 5vh;
+    width: 5vw;
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px; /* Optional: Adds rounded corners to the button */
+    cursor: pointer; /* Changes cursor to pointer when hovering */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  /* Button container to center the buttons */
+  .button-container {
+    display: flex;
+    gap: 10px; /* Spacing between buttons */
+    justify-content: center;
+  }
+  
+  /* Label styles for form inputs */
+  label {
+    color: black; /* Text color for label */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px; /* Space below the label */
+  }
+  
+  /* Hover effect for the button */
+  .button:hover {
+    background-color: lightseagreen; /* Changes color on hover */
+  }
+  
   display: flex;
   justify-content: center;
 
