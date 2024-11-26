@@ -48,14 +48,14 @@ function App() {
   };
 
   return (
-    <div>
+    <div className='container'>
       <h4>Submission Form</h4>
       {submitted ? (
         <div>
           {resetMessage && <p>{resetMessage}</p>}
         </div>
       ) : (
-        <form onSubmit={handleSubmit}>
+        <form className='form' onSubmit={handleSubmit}>
           <label>
             Name
             <input 
@@ -126,7 +126,7 @@ function App() {
           </label>
 
           <label>
-            Other Subjects
+            Your Best Subjects
             <input 
               type="checkbox" 
               name="english" 
@@ -181,8 +181,10 @@ function App() {
             />
           </label>
 
-          <button type="button" onClick={handleReset}>Reset</button>
-          <button type="submit">Submit</button>
+          <div className='button-container'>
+            <button className='button' type="button" onClick={handleReset}>Reset</button>
+            <button className='button' type="submit">Submit</button>
+          </div>
         </form>
       )}
     </div>
